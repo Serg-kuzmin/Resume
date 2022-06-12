@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, resume, css" />
+    <meta
+      name="description"
+      content="Первое резюме написанное на HTML с добавлением стилей CSS"
+    />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <div class="container">
+
+    <img id="ava" src="ava.png" alt="аватарка" height="200" class="avatar" />
+    
+    <div class="info">
+    <h1>Сергей Кузьмин</h1>
+
+    <p>
+      Имею законченное <strong>высшее</strong> образование по специальности
+      <strong><em>Машиностроение</em></strong> с недавних пор увлекся
+      программированием
+    </p>
+
+    <h3>Мои социальные сети</h3>
+
+    <a href="https://vk.com/id296447427" target="_blank" class="vk"> VK</a>
+    </div>
+
+     <div id="hobby">
+    <h2>Мои увлечения</h2>
+    <ul class="list">
+      <li>Автомобили</li>
+      <li>Путешествия</li>
+      <li>Техника</li>
+      <li>Спорт</li>
+    </ul>
+  </div>
+
+  
+<div id="work">
+    <table class="table">
+            <thead>
+        <th>Место работы</th>
+        <th>Должность</th>
+        <th>Год</th>
+      </thead>
+      <tbody></tbody>
+      <tr>
+        <td>АО Группа "ИЛИМ"</td>
+        <td>Техник по эксплуатации подземных коммуникаций</td>
+        <td>2013-2014</td>
+
+      </tr>
+
+      <tr>
+        <td>АО Группа "ИЛИМ"</td>
+        <td>Техник по эксплуатации газового оборудования</td>
+        <td>2014-2015</td>
+      </tr>
+
+      <tr>
+        <td>АО Группа "ИЛИМ"</td>
+        <td>Техник по КИПиА</td>
+        <td>2015-2019</td>
+      </tr>
+
+      <tr>
+        <td>АО Группа "ИЛИМ"</td>
+        <td>и.о. начальника участка КИПиА</td>
+        <td>2019-сейчас</td>
+      </tr>
+    </tbody>
+      </table>
+    </div>
+  
+    <div id="contacts">
+   <h2>Связаться со мной</h2>
+
+   <div class="form-row">
+    
+   <form class="form">
+     <div class="form-group">
+    <label for="name"> Ваше имя:</label>
+    <input type="text" id="name" placeholder="Введите ваше имя">
+  </div>
+
+  <div class="form-group">
+    <label for="email"> Ваш email: </label>
+    <input type="email" id="email" placeholder="Введите ваш email">
+  </div>
+</div>
+
+  <div class="form-group">
+    <label for="message"> Ваше сообщение:</label>
+    <textarea id="message" placeholder="Введите сообщение..."></textarea>
+  </div>
+
+ <button class="btn"> Отправить</button>
+</form>
+  </div>
+</div>
+
+
+  </body>
+</html>

@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: Roboto, sans-serif;
+  background: #f1f1f1;
+  font-size: 16px;
+  color: #0f141e;
+}
+
+#ava {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  height: 170px;
+  margin: 5px 10px 5px 5px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.info {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+#hobby {
+  background-color: rgb(214, 216, 235);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#work {
+  background-color: rgb(210, 193, 226);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.vk {
+  color: #0f141e;
+  text-decoration: none;
+}
+
+.vk:visited {
+  color: rgb(154, 60, 216);
+}
+
+.vk:active {
+  color: red;
+}
+
+.vk:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  background: rgb(187, 226, 238);
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.table td:nth-child(even) {
+  background: rgb(212, 180, 224);
+}
+
+.avatar {
+  float: left;
+  margin: 10px;
+}
+
+#contacts h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-row .form-group {
+  margin-right: 20px;
+  width: 47%;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .form-row .form-group {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #0f141e;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  color: #000;
+  outline: none;
+  padding: 15px 0 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
